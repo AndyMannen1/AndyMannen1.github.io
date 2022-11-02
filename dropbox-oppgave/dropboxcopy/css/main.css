@@ -175,3 +175,28 @@ height: 90vh;
     color: white;
     margin-left: 2vw;
 }
+
+#sectionbuttons {
+    display: grid;
+    /* text-align: center; */
+    grid-template-columns: repeat(10, 1fr);
+    
+
+    height: 10vh;
+    border: 1px solid darkgray;
+}
+
+.secbuttons {
+    background-color: rgba(0, 0, 0, 0);
+    width: 1vw;
+    font-size: 4pt;
+    margin: 0;
+}
+
+.radios {
+    width: 1vw;
+}
+
+#ranged {
+    width: 4vw;
+}
