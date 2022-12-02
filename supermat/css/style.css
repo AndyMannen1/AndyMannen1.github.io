@@ -1,0 +1,271 @@
+/* START LANDSCAPE CSS */
+
+@media (orientation: landscape) {
+    .main-header {
+        width: 100vw;
+        height: 17vh;
+        background-color: black;
+        position: sticky;
+        top: 0vh;
+        z-index: 2;
+
+    }
+
+    .logo {
+        width: 7vw;
+        margin-left: 2vw;
+        margin-top: 1vh;
+        height: 7vw;
+    }
+
+    .navbar {
+        margin-top: -13vh;
+        display: grid;
+        grid-template-columns: repeat(3, 0.33fr);
+        }
+
+    .buttons {
+        background-color: rgb(200, 200, 200);
+        padding: 1vw;
+        text-decoration: none;
+        color: black;
+        margin-left: 20vw;
+        text-align: center;
+    }
+
+    .cumbar-image {
+        position: absolute;
+        position: sticky;
+        left: 100px;
+        top: 100px;
+        z-index: -1;
+        width: 100vw;
+} 
+    video {
+        width: 50vw; 
+        margin-left: 25vw; 
+        margin-top: 30 vh;
+    }
+    .foot-div {
+        display: grid;
+        grid-template-columns: repeat(2, 0.5fr);
+        margin: 0;
+    }
+    .main-footer {
+        background-color: rgb(88, 88, 88);
+        width: 100vw;
+        height: 20vh;
+        margin-top: -5vh;
+        text-align: center;
+        color: white;
+    }
+    .KUMbar {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}
+/* SLUTT LANDSCAPE CSS */
+
+/* START PORTRAIT CSS */
+@media (orientation: portrait) {
+    * {
+        overflow-x: hidden;
+    }
+    .main-header {
+        width: 100vw;
+        height: 15vh;
+        background-color: black;
+        position: sticky;
+        top: 0vh;
+        z-index: 2;
+
+    }
+
+    .logo {
+        width: 18vw;
+        height: 15vh;
+    }
+    
+    .navbar {
+        margin-top: -11vh;
+        display: grid;
+        grid-template-columns: repeat(3, 0.33fr);
+        }
+    
+    .buttons {
+
+        background-color: rgb(200, 200, 200);
+        padding: 1vw;
+        width: 25vw;
+        height: 5vh;
+        text-decoration: none;
+        color: black;
+        margin-left: 20vw;
+        text-align: center;
+    }
+
+    .cumbar-image {
+        width: 200vw;
+        position: absolute;
+        position: sticky;
+        left: 100px;
+        top: 100px;
+        z-index: -1;
+
+    }
+    video {
+        width: 100vw;
+    }
+    .KUMbar {
+        width: 100vw;
+        margin-top: 3vh;
+    }
+    
+    .main-footer {
+        background-color: rgb(88, 88, 88);
+        width: 100vw;
+        height: 40vh;
+        margin-top: -5vh;
+        text-align: center;
+        color: white;
+    }
+    .om-oss-div {
+        width: 80vw;
+        margin-left: 10vw;
+        margin-top: 10vw;
+    }
+}
+
+/* SLUTT PORTRAIT CSS */
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.buttons:hover {
+    background-color: rgb(64, 64, 64);
+    border: 1px solid white;
+    color: white;
+}
+
+.frontpage-article {
+    width: 100vw;
+    height: 400vh;
+    background: rgba(0,0,0,0.7);
+    margin: 0;
+    margin-top: -4vh;
+}
+
+@media (orientation: portrait) {
+    .frontpage-article {
+        height: 200vh;
+    }
+}
+
+.frontpage-article-2 {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    margin: 0;
+    margin-top: -4vh;
+}
+.frontpage-article-3 {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    margin: 0;
+    margin-top: -4vh;
+}
+.cumbar-image {
+position: absolute;
+position: sticky;
+left: 100px;
+top: 100px;
+z-index: -1;
+width: 100vw;
+} 
+
+.title-text {
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+}
+
+.main-ptext {
+    color: white;
+    margin-top: 20vh;
+    font-size: 1rem;
+    width: 80vw;
+    margin: 10vw;
+}
+
+.om-oss-div {
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+/* START TEXTINNHOLD */
+h1, h2, p {
+    color: white;
+}
+
+/* START LANDSKAP */
+@media (orientation: landscape) {
+
+    .text-div{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .text1 {
+        margin-top: -15vh;
+    }
+    .text2 {
+        margin-top: 40vh;
+    }
+    .text3 {
+        margin-top: 10vh;
+    }
+    .text4 {
+        margin-top: 10vh;
+    }
+
+
+
+}
+
+
+/* SLUTT LANDSKAP */
+
+/* START PORTRETT */
+@media (orientation: portrait) {
+    .text-div{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    .title-text {
+        font-size: 5rem;
+    }
+    .text1 {
+        margin-top: -8vh;
+    }
+    .text2 {
+        margin-top: 10vh;
+    }
+    .text3 {
+        margin-top: 5vh;
+    }
+    .text4 {
+        margin-top: 5vh;
+    }
+    .text5 {
+        margin-top: 5vh;
+    }
+}
+/* SLUTT PORTRETT */
+
+.video-1 {
+    margin-left: 0;
+}
+/* SLUTT TEXTINNHOLD */
