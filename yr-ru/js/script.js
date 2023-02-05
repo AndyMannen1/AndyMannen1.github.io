@@ -1,5 +1,5 @@
 function askWeather(){
-    let city = prompt("Skriv inn en by (ikke enkelte byggninger som drømtorp, men skriv heller Ski.):");
+    let city = document.getelementbyid("input");
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=6ade61660873363fee0bb92057291f0d`)
         .then(res => {
             if (!res.ok) {
