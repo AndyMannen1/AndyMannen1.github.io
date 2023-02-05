@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+    margin: 0;
+}
+h1 {
+    color: white;
+}
+header{
+    background-color: crimson;
+}
+table, tr, td{
+
+    border: solid rgb(237, 107, 100);
+    background-color: rgb(230, 180, 173);
+}
