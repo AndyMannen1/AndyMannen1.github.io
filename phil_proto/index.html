@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar"> 
+          <a id="navBut" href="">. <img src="images/backarrow.png" style="margin-top: 4vh; width: 20vw; height: 12vh;" alt=""></a>
+          <div class="hamburgermenu-closed svg" id="hamburgermenu-closed"> </div>
+          <div class="hamburgermenu-open hidden svg" id="hamburgermenu-open"> </div>
+        </nav>
+    </header>
+    
+    <div class="mobilemenu hidden" id="mobilemenu">
+        <ul>
+            <li><a href="#">logg inn</a></li>
+            <li><a href="#">logg inn</a></li>
+            <li><a href="#">logg inn</a></li>
+        </ul>
+    </div>
+
+    <div class="parent-container">
+        <h1 style="text-align: center;">Produkter</h1>
+        <div id="sokefelt">
+            <form action="" onsubmit="sok()">
+                <input type="text" placeholder="Søk her" id="sokefeltet">
+                <button id="sokknapp"></button>
+            </form>
+        </div>
+
+    <div class="flexcontainer">
+        <div class="product-box" id="imgbut">
+        <img src="images/apple_iphone.png" class="homepage-product-img" alt="cat">  
+        <p class="product-address">Drømtorp</p>
+        <h2 class="product-h2">Iphone</h2>
+        <div id="gridElement" class="gridWrapper">
+
+        </div>
+        <div class="product-box">
+            <img src="images/apple_iphone.png" class="homepage-product-img" alt="cat">  
+            <p class="product-address">Drømtorp</p>
+            <h2 class="product-h2">Iphone</h2>
+    
+            </div>
+            <div class="product-box">
+                <img src="images/apple_iphone.png" class="homepage-product-img" alt="cat">  
+                <p class="product-address">Drømtorp</p>
+                <h2 class="product-h2">Iphone</h2>
+        
+                </div>
+
+    </div>
+
+    <footer>
+        <nav class="navbar-bottom">  
+            <div class="button-bottom">
+                <a href="#"> <img src="images/save.svg" class="button-img-bottom" alt=""></a>
+            </div>
+            <div class="button-bottom">
+                <a href="#"> <img src="images/Search.svg" class="button-img-bottom" alt=""></a>
+            </div>
+            <div class="button-bottom">
+                <a href="#"> <img src="images/Handlekurv.svg" class="button-img-bottom" alt=""></a>
+            </div>            
+        </nav>
+    </footer>
+    </div>
+
+</body>
+</html>

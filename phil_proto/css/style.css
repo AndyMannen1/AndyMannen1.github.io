@@ -1,0 +1,195 @@
+
+   body {
+        background-color: black;
+    }
+
+
+    * {
+        margin: 0;
+    }
+    p, h1 ,h2, h3 {
+        color: white;
+    }
+    text {
+        color: white;
+    }
+
+    header {
+        position: fixed ;
+        top: 0px;
+        z-index: 3;
+    }
+
+    .navbar {
+        height: 10vh;
+        background-color: black;
+        border-bottom: 1px solid white;
+        display: flex;
+        justify-content: flex-end;
+        width: 100vw;
+        position: relative;
+        /* padding-top: 5%; */
+        /* align-items: center; */
+        /* grid-template-columns: repeat(3, 1fr); add this line */
+      }
+      
+      #navBut {
+        margin-top: -13vw;
+        margin-right: 60vw;
+      }
+
+      .logo {
+        margin-top: 1vh;
+        margin-left: 2vw;
+        width: 15vw;
+      }
+    
+      .hamburgermenu-closed {
+        width: 20vw;
+        height: 20vw;
+        background-image: url("../images/hamburger.svg");
+        background-size: cover;
+        background-repeat: no-repeat; 
+      }
+    
+      .hamburgermenu-open {
+        width: 20vw;
+        height: 20vw;
+        background-image: url("../images/cross.svg");
+        background-size: cover;
+        background-repeat: no-repeat; 
+      }
+      .mobilemenu{
+        margin: 0;
+        display: block;
+        height: 100vh;
+        text-align: center;
+        position: sticky;
+        top: 10vh ;
+        background-color: black;
+    }
+    
+    .mobilemenu li {
+        display: block !important;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+    }
+    li a {
+        color: var(--primary-text-color);
+        text-decoration: none;
+        font-size: 1.5em;
+        margin-top: 4vh;
+    }
+    .mobilemenu ul{
+        margin-left: -10vw;
+    }
+    
+    
+      .hidden {
+        display: none;
+      }
+
+    
+    #sokefelt {
+        border-bottom: solid 1px white;
+        height: 6vh;
+        margin-top: 5vh;
+    }
+    .flexcontainer {
+        margin-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10vh;
+        justify-content: center;
+    }
+    .flexcontainer p {
+        font-size: 1rem;
+    }
+    .flexcontainer h2 {
+        font-size: 2rem;
+    }
+    table {
+        width: 100vw;
+    }
+    .homepage-product-img {
+        width: 80vw;
+    }
+
+    .product-box {
+        width: 80vw;
+        display: grid;
+        grid-template-rows: auto;
+        text-align: center;
+        border: 1px solid white;
+    }
+
+
+    .parent-container {
+        border: solid 1px white;
+        background-color: black;
+    }
+
+    input[type=text] {
+        width: 80%;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        display: inline-block;
+        box-sizing: border-box;
+        /* margin: 8px; */
+        padding: 14px 22px;
+        margin-left: 5vw;
+        background-color: black;
+        color: white;
+    }
+
+    #sokknapp {
+        width: 10vw;
+        height: max-content;
+        padding: 14px;
+        background-color: black;
+        border: solid 1px white;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+
+    .navbar-bottom {
+        height: 10vh;
+        background-color: black;
+        border-top: 1px solid white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100vw;
+    }
+footer {
+        position: fixed ;
+        bottom: 0px;
+        z-index: 3;
+}
+.button-bottom {
+    width: 20vw;
+    height: 20vh;
+    margin: 0;
+}
+
+.button-bottom img {
+    width: 10vw;
+    margin: 0;
+    justify-self: center;
+}
+.button-bottom a {
+    height: 20vh;
+    width: 20vw;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.wrapperdiv{}
