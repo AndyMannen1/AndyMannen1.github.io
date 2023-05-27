@@ -398,7 +398,7 @@ button:hover{
 var audio = document.createElement('audio');
 audio.src ='https://andymannen1.github.io/audiotest/IMSLP106516-PMLP02751-S002-02-128k.mp3';
 audio.loop = true;
-audio.play();</script><tw-tag name="Test" color="red"></tw-tag><tw-tag name="Death" color="red"></tw-tag><tw-tag name="Victory" color="green"></tw-tag><tw-passagedata pid="1" name="Start" tags="" position="2100,100" size="100,100">&lt;&lt;set $schizo = 0&gt;&gt;
+audio.play();</script><tw-tag name="Test" color="red"></tw-tag><tw-tag name="Death" color="red"></tw-tag><tw-tag name="Victory" color="none"></tw-tag><tw-tag name="Farlig" color="yellow"></tw-tag><tw-tag name="Hemmelig" color="purple"></tw-tag><tw-passagedata pid="1" name="Start" tags="" position="2100,100" size="100,100">&lt;&lt;set $schizo = 0&gt;&gt;
 &lt;&lt;set $levetid = 0&gt;&gt;
 &lt;&lt;set $mil = 0&gt;&gt;
 &lt;img src=&quot;https://i.imgur.com/t5WOAnu.png&quot;&gt;
@@ -433,7 +433,7 @@ Hvordan vil du få deg til talen
     &lt;&lt;goto &quot;Baat&quot;&gt;&gt;
 &lt;&lt;/button&gt;&gt; &lt;/div&gt;
 &lt;/div&gt;
-&lt;&lt;endnobr&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="Baat" tags="" position="2250,550" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;&lt;endnobr&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="Baat" tags="Farlig" position="2250,550" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
 &lt;img src=&quot;https://i.imgur.com/t5WOAnu.png&quot;&gt;
 &lt;div class=&quot;cards-header&quot;&gt;
 &lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
@@ -488,7 +488,7 @@ Hvordan vil du få deg til talen
 
  &lt;audio autoplay&gt;
  &lt;source src=&quot;https://andymannen1.github.io/audiotest/IMSLP581208-PMLP02751-Mozart_-_Requiem_-_03_(Richter).flac&quot; type=&quot;audio/mp3&quot;&gt;
-&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="9" name="Demokrati" tags="" position="2250,700" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="9" name="Demokrati" tags="Farlig" position="2250,700" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
 &lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
 &lt;div class=&quot;cards-header&quot;&gt;
 &lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
@@ -566,8 +566,12 @@ Hvordan vil du få deg til talen
 &lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
 &lt;div class=&quot;cards-header&quot;&gt;
 &lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
-&lt;h2&gt;Du har lovet folket stabilitet. De jubler! &lt;/h2&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="15" name="Attribrusjon" tags="" position="1950,250" size="100,100">
+&lt;h2&gt;Du har lovet folket stabilitet. De jubler! Militæret derimot, er ikke fornøyde.&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;singlecard&quot;&gt;
+[[Hvordan løser jeg dette?|Jingoisme?]]
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="15" name="Attribrusjon" tags="" position="1950,250" size="100,100">
 
 &lt;span style=&quot;display: block; color: black; font-size: 2vw; margin-left: 30%; width: 40%;&quot;&gt; Musikk:  Dies Irae via https://imslp.org/ &lt;br&gt; (offentlig domene i EU og EØS)&lt;/span&gt;</tw-passagedata><tw-passagedata pid="16" name="Iacta alea est" tags="" position="2100,850" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
 &lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
@@ -600,7 +604,21 @@ Hvordan vil du få deg til talen
 &lt;&lt;/button&gt;&gt; &lt;/div&gt;
 &lt;/div&gt;
 &lt;span style=&quot;display: none; margin: 0;&quot;&gt; [[Ultimatum]] &lt;/span&gt;
-&lt;&lt;endnobr&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Diplomati" tags="" position="2000,1150" size="100,100"></tw-passagedata><tw-passagedata pid="20" name="Ultimatum" tags="" position="2200,1150" size="100,100">&lt;&lt;set $mil += 1&gt;&gt;
+&lt;&lt;endnobr&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Diplomati" tags="Farlig" position="2000,1150" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
+&lt;div class=&quot;cards-header&quot;&gt;
+&lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
+&lt;h2 class=&quot;long-text&quot;&gt;Alle diplomatiske forsøk på en løsning har mislykkes. Generalstaben nekter å gi seg, og har gitt deg et ultimatum. Tving nabolandet vårt til å gi seg, eller bli byttet ut med en mer sammarbeidsvillig diktator.&lt;/h2&gt;
+&lt;/div&gt;
+&lt;&lt;nobr&gt;&gt;
+&lt;div class=&quot;duogrid&quot;&gt; 
+&lt;div class=&quot;duocard&quot;&gt;[[Gi opp.|Start]]&lt;/div&gt;
+&lt;div class=&quot;duocard&quot;&gt;&lt;&lt;button &quot;Ultimatum.&quot;&gt;&gt;
+    &lt;&lt;goto &quot;Ultimatum&quot;&gt;&gt;
+&lt;&lt;/button&gt;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;span style=&quot;display: none; margin: 0;&quot;&gt; [[Ultimatum]] &lt;/span&gt;
+&lt;&lt;endnobr&gt;&gt;</tw-passagedata><tw-passagedata pid="20" name="Ultimatum" tags="" position="2200,1150" size="100,100">&lt;&lt;set $mil += 1&gt;&gt;
 &lt;&lt;set $levetid += 1&gt;&gt;
 &lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
 &lt;div class=&quot;cards-header&quot;&gt;
@@ -616,7 +634,7 @@ Hvordan vil du få deg til talen
 &lt;/div&gt;
 &lt;span style=&quot;display: none; margin: 0;&quot;&gt; [[Krig]] &lt;/span&gt;
 &lt;&lt;endnobr&gt;&gt;
-</tw-passagedata><tw-passagedata pid="21" name="Demokratisk" tags="Victory" position="2400,1000" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+</tw-passagedata><tw-passagedata pid="21" name="Demokratisk" tags="Hemmelig" position="2400,1000" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
 
 &lt;img src=&quot;https://i.imgur.com/t5WOAnu.png&quot; alt=&quot;diktator&quot;&gt;
 &lt;div class=&quot;cards-header&quot;&gt;
@@ -632,7 +650,7 @@ Hvordan vil du få deg til talen
 &lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
 &lt;div class=&quot;cards-header&quot;&gt;
 &lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
-&lt;h2 class=&quot;long-text&quot;&gt;Det viser seg at våre naboer ikke bløffet. Vi er nå i krig på to fronter. Generalstaben har gitt deg to alternativer: &lt;br&gt; Fortsett som før uten endringer i økonomien&lt;/h2&gt;
+&lt;h2 class=&quot;long-text&quot;&gt;Det viser seg at våre naboer ikke bløffet. Vi er nå i krig på to fronter. Generalstaben har gitt deg to alternativer: &lt;br&gt; Fortsett som før uten endringer i økonomien (noe som sannsynligvis vil føre til tap i krigen). eller mobilisere hele landet, noe de kaller &quot;total krig&quot;. Vi kan finansiere denne mobiliseringen ved å plyndre nabolandene våres. Generalstaben mener at vi ikke har noe annet valg en total krig, men valget er ditt.&lt;/h2&gt;
 &lt;/div&gt;
 &lt;&lt;nobr&gt;&gt;
 &lt;div class=&quot;duogrid&quot;&gt; 
@@ -642,12 +660,71 @@ Hvordan vil du få deg til talen
 &lt;&lt;/button&gt;&gt;@@ &lt;/div&gt;
 &lt;/div&gt;
 &lt;span style=&quot;display: none; margin: 0;&quot;&gt; [[Total Krig]] &lt;/span&gt;
-&lt;&lt;endnobr&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="Total Krig" tags="" position="2300,1450" size="100,100"></tw-passagedata><tw-passagedata pid="24" name="Siviløkonomi" tags="" position="2100,1450" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;&lt;endnobr&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="Total Krig" tags="" position="2300,1450" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
 &lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
 &lt;div class=&quot;cards-header&quot;&gt;
 &lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
+&lt;h2 class=&quot;long-text&quot;&gt;Det er et mirakel! Krigen er vunnet!&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;singlecard&quot;&gt;
+[[Hent sjampanjen!|Krise]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="24" name="Siviløkonomi" tags="Death" position="2100,1450" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
+&lt;div class=&quot;cards-header&quot;&gt;
+&lt;h2&gt;&quot;Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.&quot; -Sun Tzu, The Art of War&lt;/h2&gt;
+&lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
 &lt;h2&gt;$schizo / 4 galskap &lt;/h2&gt;
 &lt;h2 class=&quot;long-text&quot;&gt;Det var ikke nokk. Uten den ekstra industrien du ville ha hatt via total krig hadde vi aldri en sjanse. Krigen er tapt.&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;singlecard&quot;&gt;
+[[Prøv på nytt.|Start]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="25" name="Krise" tags="" position="2300,1575" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
+&lt;div class=&quot;cards-header&quot;&gt;
+&lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
+&lt;h2 class=&quot;long-text&quot;&gt;For en måned siden vant vi krigen. Nå har vi et nytt problem. Hele økonomien var basert på produksjon av krigsmateriell og betalt for via plyndring under krigen. Nå som krigen er over er økonomien i frifall.&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;singlecard&quot;&gt;
+[[Hva gjør vi nå?!|Opprør]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="Opprør" tags="" position="2300,1700" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
+&lt;div class=&quot;cards-header&quot;&gt;
+&lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
+&lt;h2 class=&quot;long-text&quot;&gt;Massive opprør sprer seg gjennom territoriene vi har erobret. Imperiumet vi har bygget opp faller sammen under vekten av økonomisk kollaps.&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;singlecard&quot;&gt;
+[[Hent militærstaben!|Kollapse]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="27" name="Kollapse" tags="Death" position="2300,1825" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
+&lt;div class=&quot;cards-header&quot;&gt;
+&lt;h2&gt;&quot;A house divided agains itself cannot stand. -Abraham Lincoln &lt;/h2&gt;
+&lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
+&lt;h2&gt;$schizo / 4 galskap &lt;/h2&gt;
+&lt;h2 class=&quot;long-text&quot;&gt;Et statskupp ikke alt for ulikt det som satt deg i makten har nå styrtet deg. Du har blitt dømt til døden for menneskerettighetsbrudd og mange andre forbrytelser. Du har tapt.&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;singlecard&quot;&gt;
+[[Prøv på nytt.|Start]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="Jingoisme?" tags="Farlig" position="1950,850" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
+&lt;div class=&quot;cards-header&quot;&gt;
+&lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
+&lt;h2 class=&quot;long-text&quot;&gt;Militærstaben gir deg to alternativer. Adopter en jingoistisk ideologi (som jeg håper at jeg ikke må forklare hva er igjen), eller se hvordan du klarer deg uten støtte fra militæret.&lt;/h2&gt;
+&lt;/div&gt;
+&lt;&lt;nobr&gt;&gt;
+&lt;div class=&quot;duogrid&quot;&gt; 
+&lt;div class=&quot;duocard&quot;&gt;[[Vi trenger ikke hjelp fra militæret!|Feil]]&lt;/div&gt;
+&lt;div class=&quot;duocard&quot;&gt;&lt;&lt;button &quot;Ultimatum.&quot;&gt;&gt;
+    &lt;&lt;goto &quot;Ultimatum&quot;&gt;&gt;
+&lt;&lt;/button&gt;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;span style=&quot;display: none; margin: 0;&quot;&gt; [[Ultimatum]] &lt;/span&gt;
+&lt;&lt;endnobr&gt;&gt;</tw-passagedata><tw-passagedata pid="29" name="Feil" tags="Death" position="1950,1000" size="100,100">&lt;&lt;set $levetid += 1&gt;&gt;
+&lt;img src=&quot;https://i.imgur.com/5IcOXq7.png&quot;&gt;
+&lt;div class=&quot;cards-header&quot;&gt;
+&lt;h2&gt;&quot;No man rules alone. -CGP Grey, Rules for a ruler &lt;/h2&gt;
+&lt;h2&gt;Du har overlevd $levetid trekk&lt;/h2&gt;
+&lt;h2&gt;$schizo / 4 galskap &lt;/h2&gt;
+&lt;h2 class=&quot;long-text&quot;&gt;Uten militær støtte var det umulig å stoppe revolusjonere grupper i landet. En revolusjon har styrtet regjeringen din, og dømt deg til døden. Som mange andre revolusjoner vil denne sansynligvis også falle pga. interne grupper som alle slåss for sin del av kaka, men det vil ha liten betydning for deg.&lt;/h2&gt;
 &lt;/div&gt;
 &lt;div class=&quot;singlecard&quot;&gt;
 [[Prøv på nytt.|Start]]
