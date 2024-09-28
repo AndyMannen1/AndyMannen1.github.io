@@ -75,6 +75,7 @@
   width: 70%;
   margin-bottom: 1vh;
   background-color: #222725;
+  text-align: center;
 }
 
 .karaokeCard h1 {
@@ -119,16 +120,88 @@
 }
 
 .record {
-  width: 100%;
+  width: 90%;
   height: 6vh;
   border-radius: 10px;
   margin: 0 auto;
+  /* border-image: linear-gradient(to right, rgba(44,203,205,1) 0%, rgba(248,165,176,1) 100%) 1;
+  border-radius: 5px;
+  border-width: 4px;
+  border-style: solid;
+  padding: 5px; */
+  border: none;
+  /* filter: drop-shadow(10px 10px 2em linear-gradient(0deg, rgba(44,203,205,1) 0%, rgba(248,165,176,1) 100%));
+  filter: drop-shadow(0 0 2em #61dafbaa); */
+  position: relative;
+  transform: translate(0);
+  transform-style: preserve-3d;
 }
 
+#record::before {
+  content:"";
+  position: absolute;
+  inset: -5px;
+  transform: translate3d(0px,0px,-1px);
+  background: conic-gradient(
+    from 90deg at 40% -25%,
+    rgb(44,203,205), 
+    rgb(60, 185, 205),
+    rgb(76, 167, 205),
+    rgb(92, 149, 205),
+    rgb(108, 131, 205),
+    rgb(124, 113, 205),
+    rgb(140, 95, 205),
+    rgb(156, 77, 205),
+    rgb(172, 59, 205),
+    rgb(188, 41, 205),
+    rgb(204, 23, 205),
+    rgb(220, 5, 205),
+    rgb(236, -13, 205),
+    rgb(44,203,205)  /* Repeat first color to close the loop */
+  );
+  
+  filter: blur(10px);
+}
+
+#pause::before {
+  content:"";
+  position: absolute;
+  inset: -5px;
+  transform: translate3d(0px,0px,-1px);
+  background: conic-gradient(
+    from 90deg at 40% -25%,
+    rgb(44,203,205), 
+    rgb(60, 185, 205),
+    rgb(76, 167, 205),
+    rgb(92, 149, 205),
+    rgb(108, 131, 205),
+    rgb(124, 113, 205),
+    rgb(140, 95, 205),
+    rgb(156, 77, 205),
+    rgb(172, 59, 205),
+    rgb(188, 41, 205),
+    rgb(204, 23, 205),
+    rgb(220, 5, 205),
+    rgb(236, -13, 205),
+    rgb(44,203,205)  /* Repeat first color to close the loop */
+  );
+  
+  
+  
+  
+
+
+  filter: blur(10px);
+}
+
+
+
+
 .mic {
-  width: 100%;
+  width: 90%;
   height: 6vh;
   border-radius: 10px;
+  margin: 10px auto;
   /* background-color: burlywood; */
 }
 .recordings {

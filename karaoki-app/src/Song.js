@@ -271,7 +271,7 @@ useEffect(() => {
         <p className="sangTekst">{content.sangTekst}</p>
 
 
-        <div id="mic" className="micey"></div>
+        <div id="mic" className="micey" style={{width: '90vw'}}></div>
 
         <div id="recordings" className="recordingsey"></div> 
 
