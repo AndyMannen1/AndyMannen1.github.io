@@ -1,36 +1,25 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import './App.css'
+import Home from './components/Home.jsx';
+import Login from './components/Login.jsx';
+
 
 function App() {
 
-  const [welcomeMessage, setWelcomeMessage] = useState("Design: TBD (latskap)")
-  const [connectionStatus, setConnectionStatus] = useState("Connecting...")
-  const getText = async() => {
-    await axios
-    .get("/api/welcome")
-    .then(response => {
-      if (response.data == "Hello World!") {
-        setConnectionStatus("Connected")
-      }
-    })
-    .catch((error) => {
-      console.error(error)
-      setConnectionStatus("Failed to connect")
-    })
-};
 
-
-
-  useEffect(() => {
-    getText()
-  }, [])
 
 
   return (
     <>
-      <h1>{welcomeMessage}</h1>
-      <h2>{connectionStatus}</h2>
+    <main>
+      <article>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+      </article>
+    </main>
     </>
   )
 }

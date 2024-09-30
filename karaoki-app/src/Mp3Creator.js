@@ -13,10 +13,10 @@ function Mp3Creator() {
             waveColor: '#4F4A85',
             progressColor: 'orange',
             sampleRate: 20000,
-            url: './music/fazbear.mp3'
+            url: './music/sasageyoVocals.mp3',
         }); 
   
-        wavesurfer.load('./music/fazbear.mp3');
+        wavesurfer.load('./music/sasageyoVocals.mp3');
         return () => {
             wavesurfer.destroy(); //cleanup funksjon - bryter kobling med wavesurfer server
         };
@@ -39,7 +39,7 @@ function Mp3Creator() {
     return (
         <div>
           <div id='waveform'> </div>
-          <button onClick={() => handleclick()}>Sende spektrogramm</button>  
+          <button onClick={() => handleclick()}>Send spektrogramm</button>  
         </div>
     );
     }

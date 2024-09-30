@@ -21,7 +21,7 @@
       "id":1,
       "easterEgg":false
     },
-        {
+    {
       "vareNavn": "I'm still standing",
       "lengde": "03:02",
       "bilde": "/images/imStillStanding.jpg",
@@ -32,7 +32,7 @@
       "id":2,
       "easterEgg":false
     },
-        {
+    {
       "vareNavn": "Toreador March",
       "lengde": "00:11",
       "bilde": "/images/toreadorMarch.jpg",
@@ -44,7 +44,7 @@
       "easterEgg":false
     }
     ,
-        {
+    {
       "vareNavn": "Herald of Darkness",
       "lengde": "08:37",
       "bilde": "/images/heraldOfDarkness.jpg",
@@ -55,5 +55,16 @@
       "sangTekst": "From what I've gathered you grew up nice and sheltered \n With mama's pretty stories and your own made up furies \n And mama gave me a magic clicker \n Well yes, I think it's true and fair to say \n C'mon in and listen, lost words you've been missing \n Of the fire you're bearing, the eye of the darkness, your light \n So you were drawn to stories early on \n My dreams would light up my imagination \n And you had nightmares night and day \n Yeah, but with the clicker I chased those frights away \n Who knew? \n So true \n So here is a clue of hope to remember \n Visions they come true obeying the light switch too \n Show me the Champion of Light \n I'll show you the Herald of Darkness \n Lost in a never ending night \n Diving deep to the surface \n    And all your stories of crime and chilling thrillers \n  hardboiled killers became bestsellers \n It was all too much, I had to get away \n The story's the end all, a piece of true fiction \n Made meaningless in the face of creation \n But there is more to it than meets the eye \n I never meant for it to ruin my life that way \n Would you say you lived a jaded lie \n Dark shades could never save the day \n So sad, \n But true \n Fighting the nightmares, torch and a light switch \n A gift or a curse, a reality made of dreams \n Show me the Champion of Light... \n He could write a new story like Tom Zane before him \n And maybe they'd be happy once again \n Just one shot, one more chance for him to save their marriage \n Away from the city, a romantic getaway \n Still he's the torch bearer and it couldn't be much clearer \n A war needs its warrior, true and right \n But the darkness within him held her hostage \n Had he seen her drowning, would have save her from the darkness of the lake \n Show me the Champion of Light... \n Such a Dark Place? Am I trapped in here \n Is this real? I cannot remember \n There was a manuscript it held a key \n A vicious cycle I must not surrender to \n Echo scenes to seek out \n Again and again \n Until I figure it out \n To bring this song to its end",
       "id":4,
       "easterEgg":true
+    },
+    {
+      "vareNavn": "Sasageyo",
+      "lengde": "05:41",
+      "bilde": "/images/toreadorMarch.jpg",
+      "artist": "Sound Horizon",
+      "songPath": "/music/sasageyoInstrumental.mp3",
+      "vokalPath": "./images/sasageyoVocals.jpg",
+      "sangTekst": "We believed, accepting our fate\nThat there could be no greater hellscape\nYet the darkest days in history always\nFall upon us suddenly\nNow the pounding on our doors and fences\nThey ceaselessly assault our senses\nLike an omen that can’t be prevented\nThat’ll end in calamity\nThose who have forsaken all our days gone by\nAre the enemies of ours we must eliminate\nStill I wonder what emotion shone within their eyes\nAs they all were fixed upon us on that day\nWhat must we all leave behind so that we can then defeat these demons?\n(Not a single soul nor all our lives combined)\nHave any single shred of meaning!\nDevote yourselves! Devote yourselves!\nWholeheartedly devote yourselves!\nFor every sacrifice we’ve felt\nHave led us to this very moment!\nDevote yourselves! Devote yourselves!\nWholeheartedly devote yourselves!\nSo clear a path and walk through hell toward a future we must tread\nThose who falsify all our days gone by\nAre the enemies of ours, we all must come to hate\nStill I wonder how it sounded hearing all the lies\nAs they all deceived us on that fateful day\nWhat is it we have to learn so that we can finally slay these demons?\nWhether it’s our tactics or the skills we hone -\nWe will use every one and stop at nothing!\nDevote yourselves! Devote yourselves!\nWholeheartedly devote yourselves!\nFor all the efforts we have felt\nHave led us to this very moment!\nDevote yourselves! Devote yourselves!\nWholeheartedly devote yourselves!\nSo seize the day, and walk through hell to claim our triumph with these hands!\nHow is it, these monsters that can never be redeemed\nHave the gall to wear the faces of humanity\nWe made it our mission to eliminate them all\nTill we take back the world again outside our walls\nThought it started long ago, and no one quite remembers\nWho it was that first started our battle for the end\nWe all bear an anger that is unforgettable\nSo mark our words, we will destroy them all!\nI wonder just what final scene in our survival\nMay be waiting along this path of regret?\nBut our victory will bloom a flower for the lives that we all have sacrificed to claim!\nSo for now we seek the promised land beyond paradise\nSo on that day, humanity then remembered\nThe trembling fear of submitting to our foes\nAnd the cold humiliation of a life in a prison -\nLike a cage of birds!\nArrows of fire soar through the twilight of dawn\nNow watch as their wings unfurl!\nWith a blazing trail behind them paving our way to freedom!\nDevote yourselves! Devote yourselves!\nWholeheartedly devote yourselves!\nFor all the hardship we have felt\nHas led us to this very moment!\nDevote yourselves! Devote yourselves!\nWholeheartedly devote yourselves!\nRelease the fleeting lives you’ve held\nAnd carve them into flaming arrows!\nDevote yourselves! Devote yourselves!\nWholeheartedly devote yourselves!\nSo seize the trail and walk through hell to claim our triumph with these hands!",
+      "id":5,
+      "easterEgg":false
     }
 ]
