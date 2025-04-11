@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\Kalkulatorer\\",
+  "WorkspaceRootPath": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|c:\\users\\andre\\source\\repos\\kalkulatorer\\kalkulatorer\\selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|c:\\users\\anrov6110\\documents\\koding\\andymannen1.github.io\\kalkulatorer\\kalkulatorer\\selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|solutionrelative:kalkulatorer\\selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|c:\\users\\andre\\source\\repos\\kalkulatorer\\kalkulatorer\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|c:\\users\\anrov6110\\documents\\koding\\andymannen1.github.io\\kalkulatorer\\kalkulatorer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|solutionrelative:kalkulatorer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|c:\\users\\anrov6110\\documents\\koding\\andymannen1.github.io\\kalkulatorer\\kalkulatorer\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|solutionrelative:kalkulatorer\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|c:\\users\\andre\\source\\repos\\kalkulatorer\\kalkulatorer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|solutionrelative:kalkulatorer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|c:\\users\\anrov6110\\documents\\koding\\andymannen1.github.io\\kalkulatorer\\kalkulatorer\\electrocalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594003AE-D6E5-4A37-8EAA-8D88BC54CC41}|Kalkulatorer\\Kalkulatorer.csproj|solutionrelative:kalkulatorer\\electrocalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +26,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "ElectroCalc.cs",
+              "DocumentMoniker": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\ElectroCalc.cs",
+              "RelativeDocumentMoniker": "Kalkulatorer\\ElectroCalc.cs",
+              "ToolTip": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\ElectroCalc.cs",
+              "RelativeToolTip": "Kalkulatorer\\ElectroCalc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:27:11.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Options.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Kalkulatorer\\Kalkulatorer\\Options.cs",
+              "DocumentMoniker": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\Options.cs",
               "RelativeDocumentMoniker": "Kalkulatorer\\Options.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\Kalkulatorer\\Kalkulatorer\\Options.cs",
+              "ToolTip": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\Options.cs",
               "RelativeToolTip": "Kalkulatorer\\Options.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowCAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwCAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T16:45:15.392Z",
               "EditorCaption": ""
@@ -41,22 +66,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Selection.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Kalkulatorer\\Kalkulatorer\\Selection.cs",
+              "DocumentMoniker": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\Selection.cs",
               "RelativeDocumentMoniker": "Kalkulatorer\\Selection.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\Kalkulatorer\\Kalkulatorer\\Selection.cs",
+              "ToolTip": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\Selection.cs",
               "RelativeToolTip": "Kalkulatorer\\Selection.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowB4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwB0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T16:31:19.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Kalkulatorer\\Kalkulatorer\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\Program.cs",
               "RelativeDocumentMoniker": "Kalkulatorer\\Program.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\Kalkulatorer\\Kalkulatorer\\Program.cs",
+              "ToolTip": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\Program.cs",
               "RelativeToolTip": "Kalkulatorer\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

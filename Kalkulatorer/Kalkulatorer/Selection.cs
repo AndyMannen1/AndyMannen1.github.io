@@ -44,7 +44,10 @@ namespace Calculator
 
         private void SuperBasicElectromagnetismCalculator()
         {
+            Console.Clear();
             WriteLine("Super Basic Electromagnetism Calculator selected");
+            ElectroCalc electroCalc = new ElectroCalc();
+
         }
 
         private void Exit()

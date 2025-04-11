@@ -156,6 +156,7 @@ useEffect(() => {
         progress.textContent = formattedTime
         if (formattedTime == content.lengde) {
             record.stopRecording()
+            audio.pause();
                 const imgExport = await wavesurfer.exportImage('image/jpeg'); // Export the image data
                 let dataToSend = imgExport[0]
                 console.log(imgExport)
