@@ -39,17 +39,25 @@ namespace Calculator
 
 
         private void BasicCalculator() {
+            Clear();
             WriteLine("Basic Calculator selected");
+            WriteLine("This calculator is unfinished.");
+            WriteLine("Press any key to return to the main menu.");
+            ReadKey(true);
+            Clear();
+            RunMenu();
         }
 
         private void SuperBasicElectromagnetismCalculator()
         {
-            Console.Clear();
+            Clear();
             WriteLine("Super Basic Electromagnetism Calculator selected");
             ElectroCalc electroCalc = new ElectroCalc();
-
-  
-
+            electroCalc.Calc();
+            WriteLine("Press any key to return to the menu.");
+            ReadKey(true);
+            Clear();
+            RunMenu();
         }
 
         private void Exit()

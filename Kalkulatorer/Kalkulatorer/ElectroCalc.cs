@@ -9,6 +9,7 @@ namespace Kalkulatorer
 {
     internal class ElectroCalc
     {
+  
         public void Calc()
         {
 
@@ -17,7 +18,7 @@ namespace Kalkulatorer
             double lightSpeed = 3e8;
             double waveLength;
 
-            Console.WriteLine("Input frequency, but please drop the hz, my code isn't advanced enough for that stuff. An example input would be 6e14. A typical frequency for visible light.");
+            Console.WriteLine("Input frequency, without \"hz\". For example 6e14.");
             string freqInput = Console.ReadLine();
 
             double frequency = Convert.ToDouble(freqInput);

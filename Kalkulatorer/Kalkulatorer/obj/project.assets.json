@@ -8,31 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\anrov6110\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/andreas/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anrov6110\\Documents\\koding\\Oslomet\\Kalkulatorer\\Kalkulatorer\\Kalkulatorer.csproj",
+      "projectUniqueName": "/home/andreas/Documents/koding/AndyMannen1.github.io/Kalkulatorer/Kalkulatorer/Kalkulatorer.csproj",
       "projectName": "Kalkulatorer",
-      "projectPath": "C:\\Users\\anrov6110\\Documents\\koding\\Oslomet\\Kalkulatorer\\Kalkulatorer\\Kalkulatorer.csproj",
-      "packagesPath": "C:\\Users\\anrov6110\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anrov6110\\Documents\\koding\\Oslomet\\Kalkulatorer\\Kalkulatorer\\obj\\",
+      "projectPath": "/home/andreas/Documents/koding/AndyMannen1.github.io/Kalkulatorer/Kalkulatorer/Kalkulatorer.csproj",
+      "packagesPath": "/home/andreas/.nuget/packages/",
+      "outputPath": "/home/andreas/Documents/koding/AndyMannen1.github.io/Kalkulatorer/Kalkulatorer/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\anrov6110\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/andreas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,13 +38,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -72,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
