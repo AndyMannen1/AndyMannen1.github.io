@@ -27,3 +27,17 @@ C:\Users\anrov6110\Documents\koding\AndyMannen1.github.io\Kalkulatorer\Kalkulato
 C:\Users\anrov6110\Documents\koding\AndyMannen1.github.io\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\Kalkulatorer.pdb
 C:\Users\anrov6110\Documents\koding\AndyMannen1.github.io\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\Kalkulatorer.genruntimeconfig.cache
 C:\Users\anrov6110\Documents\koding\AndyMannen1.github.io\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\ref\Kalkulatorer.dll
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\bin\Debug\net8.0\Kalkulatorer.exe
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\bin\Debug\net8.0\Kalkulatorer.deps.json
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\bin\Debug\net8.0\Kalkulatorer.runtimeconfig.json
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\bin\Debug\net8.0\Kalkulatorer.dll
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\bin\Debug\net8.0\Kalkulatorer.pdb
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\Kalkulatorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\Kalkulatorer.AssemblyInfoInputs.cache
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\Kalkulatorer.AssemblyInfo.cs
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\Kalkulatorer.csproj.CoreCompileInputs.cache
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\Kalkulatorer.dll
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\refint\Kalkulatorer.dll
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\Kalkulatorer.pdb
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\Kalkulatorer.genruntimeconfig.cache
+C:\Users\anrov6110\Documents\koding\Oslomet\Kalkulatorer\Kalkulatorer\obj\Debug\net8.0\ref\Kalkulatorer.dll

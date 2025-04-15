@@ -48,6 +48,8 @@ namespace Calculator
             WriteLine("Super Basic Electromagnetism Calculator selected");
             ElectroCalc electroCalc = new ElectroCalc();
 
+  
+
         }
 
         private void Exit()

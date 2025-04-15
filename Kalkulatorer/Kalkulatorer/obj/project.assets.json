@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\anrov6110_a\\.nuget\\packages\\": {},
+    "C:\\Users\\anrov6110\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\Kalkulatorer.csproj",
+      "projectUniqueName": "C:\\Users\\anrov6110\\Documents\\koding\\Oslomet\\Kalkulatorer\\Kalkulatorer\\Kalkulatorer.csproj",
       "projectName": "Kalkulatorer",
-      "projectPath": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\Kalkulatorer.csproj",
-      "packagesPath": "C:\\Users\\anrov6110_a\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\obj\\",
+      "projectPath": "C:\\Users\\anrov6110\\Documents\\koding\\Oslomet\\Kalkulatorer\\Kalkulatorer\\Kalkulatorer.csproj",
+      "packagesPath": "C:\\Users\\anrov6110\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anrov6110\\Documents\\koding\\Oslomet\\Kalkulatorer\\Kalkulatorer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\anrov6110_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anrov6110\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
