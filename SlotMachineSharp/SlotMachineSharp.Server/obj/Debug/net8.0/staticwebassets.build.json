@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "JvPgD8pdnIjqiTLxfU+3yK65rvYgdi+m1D5PbVcoL50=",
+  "Source": "SlotMachineSharp.Server",
+  "BasePath": "_content/SlotMachineSharp.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\SlotMachineSharp\\slotmachinesharp.client\\slotmachinesharp.client.esproj",
+      "Version": 2,
+      "Source": "slotmachinesharp.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

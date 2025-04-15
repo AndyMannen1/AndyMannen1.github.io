@@ -1,0 +1,6 @@
+@SlotMachineSharp.Server_HostAddress = http://localhost:5250
+
+GET {{SlotMachineSharp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
