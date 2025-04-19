@@ -1,1 +1,2 @@
 C:\Users\anrov6110\Documents\koding\AndyMannen1.github.io\SlotMachineSharp\slotmachinesharp.client\obj\Debug\slotmachinesharp.client.esproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\lokalprojects\AndyMannen1.github.io\SlotMachineSharp\slotmachinesharp.client\obj\Debug\slotmachinesharp.client.esproj.CoreCompileInputs.cache

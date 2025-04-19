@@ -7,29 +7,27 @@ function App() {
     const [spinRes, setSpinRes] = useState([]);
     
 
-    useEffect(() => {
-
-    }, [onloadstart]);
+    // useEffect(() => {
+    //     gambling();
+    // }, [onloadstart]);
 
     function getRandomInt(max) {
         return Math.floor(Math.random() * max);
       }
 
-    function spin() {
-
-        const resArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-        const resArraySymbols = ["🍕","🍔","🍟","🌭","🍿","🥓","🥚","🍳","🧇","🥞"]
+      async function spin() {
+        let spinRes = await gambling();
+        console.log(spinRes);
+        const resArraySymbols = ["🍕", "🍔", "🍟", "🌭", "🍿", "🥓", "🥚", "🍳", "🧇", "🥞"];
         let test = [];
+    
         for (let i = 0; i < 3; i++) {
-            console.log(resArray[i]);
-            
-            test.push(resArraySymbols[getRandomInt(10)]);
-            setSpinRes(test)
-            console.log(spinRes)
+            test.push(resArraySymbols[spinRes[i].id -1]);
         }
-
-  
+    
+        setSpinRes(test); // ✅ Set it once after loop
     }
+    
 
     
 
@@ -64,13 +62,18 @@ function App() {
         </main>
     );
     
-    // async function populateWeatherData() {
-    //     const response = await fetch('weatherforecast');
-    //     if (response.ok) {
-    //         const data = await response.json();
-    //         setForecasts(data);
-    //     }
-    // }
+    async function gambling() {
+        const response = await fetch('https://localhost:7070/gamble');
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            return data; // 👈 You need to return this
+        } else {
+            console.error("Failed to fetch gamble data");
+            return [];
+        }
+    }
+    
 }
 
 export default App;

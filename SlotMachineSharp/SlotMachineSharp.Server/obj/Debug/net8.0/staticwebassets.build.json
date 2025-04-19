@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "JvPgD8pdnIjqiTLxfU+3yK65rvYgdi+m1D5PbVcoL50=",
+  "Hash": "mHucbnnwN0+47Mqh2i9xkjXc+4B3XpiGWkdAmaH8WAo=",
   "Source": "SlotMachineSharp.Server",
   "BasePath": "_content/SlotMachineSharp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\SlotMachineSharp\\slotmachinesharp.client\\slotmachinesharp.client.esproj",
+      "Identity": "C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\slotmachinesharp.client\\slotmachinesharp.client.esproj",
       "Version": 2,
       "Source": "slotmachinesharp.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

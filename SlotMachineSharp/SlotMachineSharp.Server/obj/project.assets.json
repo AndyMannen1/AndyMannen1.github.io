@@ -478,23 +478,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anrov6110_a\\.nuget\\packages\\": {},
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj",
       "projectName": "SlotMachineSharp.Server",
-      "projectPath": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj",
-      "packagesPath": "C:\\Users\\anrov6110_a\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\obj\\",
+      "projectPath": "C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\anrov6110_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -521,7 +521,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -555,7 +555,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

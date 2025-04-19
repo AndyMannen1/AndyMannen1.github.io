@@ -4,3 +4,8 @@ GET {{SlotMachineSharp.Server_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{SlotMachineSharp.Server_HostAddress}}/gamble/
+Accept: application/json
+
+###

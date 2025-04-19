@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:60738",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\..\\slotmachinesharp.client",
+"WorkingDirectory": "C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\..\\slotmachinesharp.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
