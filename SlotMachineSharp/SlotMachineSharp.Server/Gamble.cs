@@ -22,11 +22,18 @@
 
             public static int[] Rolling()
             {
-                int[] result = new int[3];
+                int[] result = new int[4];
                 int i;
                 for (i = 0; i < result.Length; i++)
                 {
                     result[i] = GetRandomNumber(1, 11);
+                }
+                if (result[0] == result[1] && result[1] == result[2])
+                {
+                    result[3] = 1;
+                } else
+                {
+                    result[3] = 0;
                 }
                 return result;
 

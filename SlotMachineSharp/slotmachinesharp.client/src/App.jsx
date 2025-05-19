@@ -6,6 +6,7 @@ function App() {
 
     const [spinRes, setSpinRes] = useState([]);
     
+    const [winStat, setWinStat] = useState("Click SPIN to play!");
 
     // useEffect(() => {
     //     gambling();
@@ -22,7 +23,15 @@ function App() {
         let test = [];
     
         for (let i = 0; i < 3; i++) {
-            test.push(resArraySymbols[spinRes[i].id -1]);
+            test.push(resArraySymbols[spinRes[i] -1]);
+            
+        }
+ 
+        if (spinRes[3] == 1) {
+            setWinStat("You won!");
+        }    
+        else {
+            setWinStat("You lost!");
         }
     
         setSpinRes(test); // ✅ Set it once after loop
@@ -56,14 +65,16 @@ function App() {
                 </section>
                 <section className='slotMachineBottom'> 
                     <button onClick={spin} className='slotMachineStart'>SPIN!</button>
+
                 </section>
+                <h2>{winStat}</h2>
             </article>
 
         </main>
     );
     
     async function gambling() {
-        const response = await fetch('http://localhost:5250/gamble');
+        const response = await fetch('https://localhost:7070/gamble');
         if (response.ok) {
             const data = await response.json();
             console.log(data);

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34F547FC-8575-4DA5-A45C-FBB7FA354661}|SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj|c:\\users\\andre\\documents\\lokalprojects\\andymannen1.github.io\\slotmachinesharp\\slotmachinesharp.server\\controllers\\gamblecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F547FC-8575-4DA5-A45C-FBB7FA354661}|SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj|solutionrelative:slotmachinesharp.server\\controllers\\gamblecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\Controllers\\GambleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SlotMachineSharp.Server\\Controllers\\GambleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F547FC-8575-4DA5-A45C-FBB7FA354661}|SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj|c:\\users\\andre\\documents\\lokalprojects\\andymannen1.github.io\\slotmachinesharp\\slotmachinesharp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F547FC-8575-4DA5-A45C-FBB7FA354661}|SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj|solutionrelative:slotmachinesharp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SlotMachineSharp.Server\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F547FC-8575-4DA5-A45C-FBB7FA354661}|SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj|c:\\users\\andre\\documents\\lokalprojects\\andymannen1.github.io\\slotmachinesharp\\slotmachinesharp.server\\slotmachinesharp.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{34F547FC-8575-4DA5-A45C-FBB7FA354661}|SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj|solutionrelative:slotmachinesharp.server\\slotmachinesharp.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\Gamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SlotMachineSharp.Server\\Gamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F547FC-8575-4DA5-A45C-FBB7FA354661}|SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj|c:\\users\\andre\\documents\\lokalprojects\\andymannen1.github.io\\slotmachinesharp\\slotmachinesharp.server\\gamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F547FC-8575-4DA5-A45C-FBB7FA354661}|SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj|solutionrelative:slotmachinesharp.server\\gamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\SlotMachineSharp.Server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SlotMachineSharp.Server\\SlotMachineSharp.Server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,12 +46,11 @@
               "RelativeToolTip": "SlotMachineSharp.Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:56:37.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T21:56:37.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Gamble.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\Gamble.cs",
               "RelativeDocumentMoniker": "SlotMachineSharp.Server\\Gamble.cs",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "SlotMachineSharp.Server\\Gamble.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:48:10.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T21:48:10.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SlotMachineSharp.Server.http",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\SlotMachineSharp.Server\\SlotMachineSharp.Server.http",
               "RelativeDocumentMoniker": "SlotMachineSharp.Server\\SlotMachineSharp.Server.http",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "SlotMachineSharp.Server\\SlotMachineSharp.Server.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-17T21:46:44.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T21:46:44.868Z"
             },
             {
               "$type": "Document",
