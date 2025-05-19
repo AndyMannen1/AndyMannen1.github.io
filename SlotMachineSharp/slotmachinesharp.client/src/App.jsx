@@ -63,7 +63,7 @@ function App() {
     );
     
     async function gambling() {
-        const response = await fetch('https://localhost:7070/gamble');
+        const response = await fetch('http://localhost:5250/gamble');
         if (response.ok) {
             const data = await response.json();
             console.log(data);

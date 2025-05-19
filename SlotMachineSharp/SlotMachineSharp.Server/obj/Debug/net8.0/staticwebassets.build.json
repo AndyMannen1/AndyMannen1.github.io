@@ -1,24 +1,23 @@
 {
   "Version": 1,
-  "Hash": "mHucbnnwN0+47Mqh2i9xkjXc+4B3XpiGWkdAmaH8WAo=",
+  "Hash": "LxBFxoXzOsl25y7YrYdx7AH7YTjaYeTEstJjSzPIydY=",
   "Source": "SlotMachineSharp.Server",
   "BasePath": "_content/SlotMachineSharp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\andre\\Documents\\lokalprojects\\AndyMannen1.github.io\\SlotMachineSharp\\slotmachinesharp.client\\slotmachinesharp.client.esproj",
+      "Identity": "/home/andreas/Documents/koding/AndyMannen1.github.io/SlotMachineSharp/slotmachinesharp.client/slotmachinesharp.client.esproj",
       "Version": 2,
       "Source": "slotmachinesharp.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

@@ -14,19 +14,24 @@ namespace SlotMachineSharp.Server.Controllers
         {
             _logger = logger;
         }
+        
 
         [HttpGet(Name = "GetGamble")]
-        public IEnumerable<Gamble> Get()
+        
+        public int[] gamgling()
         {
-            Random rnd = new Random();
-            return Enumerable.Range(1, 3).Select(index => new Gamble
+            
+/*            return Enumerable.Range(1, 3).Select(index => new Gamble
             {
-
-                Id = rnd.Next(1, 11)
+                public int id = Gamble.res1;
             })
+            
             .ToArray();
+            */
 
+            Gamble testgamble = new Gamble();
+            return Gamble.GambleRoll.Rolling();
         }
-
     }
+    
 }

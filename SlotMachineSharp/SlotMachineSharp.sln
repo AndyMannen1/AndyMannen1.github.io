@@ -7,6 +7,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "slotmachinesharp.client", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotMachineSharp.Server", "SlotMachineSharp.Server\SlotMachineSharp.Server.csproj", "{34F547FC-8575-4DA5-A45C-FBB7FA354661}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleTesting", "consoleTesting\consoleTesting.csproj", "{C4B86E92-803A-45C9-BADD-2B2F721DDBAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{34F547FC-8575-4DA5-A45C-FBB7FA354661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34F547FC-8575-4DA5-A45C-FBB7FA354661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34F547FC-8575-4DA5-A45C-FBB7FA354661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B86E92-803A-45C9-BADD-2B2F721DDBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B86E92-803A-45C9-BADD-2B2F721DDBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B86E92-803A-45C9-BADD-2B2F721DDBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B86E92-803A-45C9-BADD-2B2F721DDBAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
