@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlotMachineSharp.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6e136ec2d832794610516f43ce5c89fa04c082c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae62c806576eb93b3bc164e82db7714b5ccf1231")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlotMachineSharp.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlotMachineSharp.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

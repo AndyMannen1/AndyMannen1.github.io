@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "slotmachinesharp.client\\slotmachinesharp.client.esproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SlotMachineSharp.Server\\SlotMachineSharp.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LeHqNEJIF9tidCjVZxlqQB0D16EZ+EzE5ih1nWqmgWbGikIPOuii4CUAbpXSdOOzJ5MLWCAAS4XYZfXZhcmz7A==",
+  "dgSpecHash": "hY/W07SN4Ew=",
   "success": true,
-  "projectFilePath": "/home/andreas/Documents/koding/AndyMannen1.github.io/Kalkulatorer/Kalkulatorer/Kalkulatorer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\anrov6110\\Documents\\koding\\AndyMannen1.github.io\\Kalkulatorer\\Kalkulatorer\\Kalkulatorer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anrov6110_a\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\anrov6110_a\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\anrov6110_a\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\anrov6110_a\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.15\\microsoft.netcore.app.host.win-x64.8.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
